@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "b3wKnpky308mu55nsN8aW5nYCjeHM603CDl2FlOjxOPNjELad7kulHvo4ka0uy7Uf8wjPn0lPCFdvcMXfkRyjA==",
+  "success": true,
+  "projectFilePath": "D:\\IEEE WIE\\WEB API - ASP.NET Core in Sinhala\\taskApi\\taskApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RASHMI\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\RASHMI\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.2\\swashbuckle.aspnetcore.swagger.6.2.2.nupkg.sha512",
+    "C:\\Users\\RASHMI\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.2\\swashbuckle.aspnetcore.swaggergen.6.2.2.nupkg.sha512",
+    "C:\\Users\\RASHMI\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.2\\swashbuckle.aspnetcore.swaggerui.6.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
