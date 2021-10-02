@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using taskApi.Services;
+using TaskApi.Services;
 
 namespace taskApi
 {
@@ -31,6 +33,11 @@ namespace taskApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaskApi", Version = "v1" });
             });
+            services.AddScoped<ItodoRepository, TodoService>();
+            //new object created per request
+           // services.AddTransient();//always new object is presented
+            //services.AddSingleton();//only one instance for an application
+
 
         }
 

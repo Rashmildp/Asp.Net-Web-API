@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using taskApi.Models;
 using taskApi.Services;
+using TaskApi.Services;
 
 namespace taskApi.Controllers
 {
@@ -14,10 +14,11 @@ namespace taskApi.Controllers
     public class TodosController : ControllerBase
     {
        
-        private TodoService _todoService;
+        private readonly TodoService _todoService;
 
-        public TodosController()
+        public TodosController(ItodoRepository repository)
         {
+
             _todoService = new TodoService();
         }
 

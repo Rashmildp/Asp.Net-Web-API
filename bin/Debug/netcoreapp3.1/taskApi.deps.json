@@ -26,6 +26,7 @@
         "dependencies": {
           "Swashbuckle.AspNetCore.SwaggerGen": "6.2.2",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.2.2",
+          "taskApi.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -364,6 +365,25 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "taskApi.Models/1.0.0": {
+        "runtime": {
+          "taskApi.Models.dll": {}
+        },
+        "compile": {
+          "taskApi.Models.dll": {}
+        }
+      },
+      "taskApi.Services/1.0.0": {
+        "dependencies": {
+          "taskApi.Models": "1.0.0"
+        },
+        "runtime": {
+          "taskApi.Services.dll": {}
+        },
+        "compile": {
+          "taskApi.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2093,6 +2113,16 @@
       "sha512": "sha512-wGrglgunEydAGuUvETBRytvFvhEhwFRuY0Qu1rK+axZfFNfRSFRdlqg+vhT4OLOCJpfReSX47jLCYu56c5RsFg==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.2",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.2.nupkg.sha512"
+    },
+    "taskApi.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "taskApi.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
